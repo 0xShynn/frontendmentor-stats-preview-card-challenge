@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const StatsItem = ({ subtitle, count }) => {
   return (
@@ -12,4 +13,10 @@ const StatsItem = ({ subtitle, count }) => {
     </div>
   );
 };
+
+StatsItem.propTypes = {
+  subtitle: PropTypes.string,
+  count: PropTypes.oneOfType(PropTypes.string, PropTypes.number),
+};
+
 export default StatsItem;

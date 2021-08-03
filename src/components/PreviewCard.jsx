@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function PreviewCard({ title, subtitle, image, children }) {
   return (
@@ -25,5 +26,12 @@ function PreviewCard({ title, subtitle, image, children }) {
     </div>
   );
 }
+
+PreviewCard.propTypes = {
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+  image: PropTypes.string,
+  children: PropTypes.node,
+};
 
 export default PreviewCard;
