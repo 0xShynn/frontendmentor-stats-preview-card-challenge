@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/anhek/frontendmentor-stats-preview-card-challenge)
+- Live Site URL: [Website](https://dreamy-haibt-50138b.netlify.app)
 
 ## My process
 
