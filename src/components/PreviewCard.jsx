@@ -26,7 +26,7 @@ const PreviewCard = ({ title, subtitle, image, children }) => (
 );
 
 PreviewCard.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.oneOfType([PropTypes.string, PropTypes.array]).isRequired,
   subtitle: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   children: PropTypes.node,

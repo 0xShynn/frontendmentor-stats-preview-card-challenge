@@ -12,7 +12,7 @@ const StatsItem = ({ subtitle, count }) => (
 
 StatsItem.propTypes = {
   subtitle: PropTypes.string.isRequired,
-  count: PropTypes.oneOfType(PropTypes.string, PropTypes.number).isRequired,
+  count: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
 };
 
 export default StatsItem;

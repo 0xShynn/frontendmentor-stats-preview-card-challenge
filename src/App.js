@@ -9,7 +9,9 @@ function App() {
       <PreviewCard
         title={[
           'Get ',
-          <span className="text-primary-accent">insights</span>,
+          <span className="text-primary-accent" key="accent">
+            insights
+          </span>,
           ' that help your business grow.',
         ]}
         subtitle="Discover the benefits of data analytics and make better decisions
