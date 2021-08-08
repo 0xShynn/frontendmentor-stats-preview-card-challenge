@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/anhek/frontendmentor-stats-preview-card-challenge)
-- Live Site URL: [Website](https://dreamy-haibt-50138b.netlify.app)
+- Solution URL: [https://github.com/anhek/frontendmentor-stats-preview-card-challenge](https://github.com/anhek/frontendmentor-stats-preview-card-challenge)
+- Live Site URL: [https://anhek-stats-preview.netlify.app](https://anhek-stats-preview.netlify.app)
 
 ## My process
 

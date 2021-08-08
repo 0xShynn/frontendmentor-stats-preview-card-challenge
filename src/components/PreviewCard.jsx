@@ -2,7 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const PreviewCard = ({ title, subtitle, image, children }) => (
-  <div className="flex flex-col overflow-hidden rounded-md bg-primary-darkblue md:flex-row-reverse md:w-1110">
+  <div
+    className="flex flex-col overflow-hidden rounded-md bg-primary-darkblue md:flex-row-reverse md:w-1110"
+    role="main"
+  >
     {/* Image header */}
     <div className="relative w-full">
       <div className="absolute w-full h-full bg-primary-accent bg-opacity-20" />
