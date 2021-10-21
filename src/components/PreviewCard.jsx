@@ -34,17 +34,29 @@ const PreviewCard = ({ title, subtitle, image, children }) => {
       <div className="flex justify-center mt-4 text-neutral-gray_2">
         <p>
           Code challenge by{' '}
-          <a href="https://frontendmentor.io" className={linkStyle}>
+          <a
+            href="https://frontendmentor.io"
+            className={linkStyle}
+            target="_blank"
+            rel="noreferrer"
+          >
             Frontend Mentor
           </a>{' '}
           • Made by{' '}
-          <a href="https://anhek.dev" className={linkStyle}>
+          <a
+            href="https://anhek.dev"
+            className={linkStyle}
+            target="_blank"
+            rel="noreferrer"
+          >
             Antonin Nhek
           </a>{' '}
           •{' '}
           <a
             href="https://github.com/anhek/frontendmentor-stats-preview-card-challenge"
             className={linkStyle}
+            target="_blank"
+            rel="noreferrer"
           >
             Github
           </a>
